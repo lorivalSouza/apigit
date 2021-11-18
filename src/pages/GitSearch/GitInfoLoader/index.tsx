@@ -1,0 +1,19 @@
+
+import ContentLoader from 'react-content-loader';
+
+const GitInfoLoader = () => (
+  <ContentLoader viewBox="0 0 320 280" height={280} width={320}>
+    <rect x="0" y="0" rx="10" ry="10" width="280" height="180" />
+    <rect x="0" y="190" rx="0" ry="0" width="280" height="20" />
+    <rect x="0" y="215" rx="0" ry="0" width="239" height="20" />
+  </ContentLoader>
+)
+
+GitInfoLoader.metadata = {
+    name: 'Lorival',
+    github: 'lorivalSouza',
+    description: 'Based on Blog item by RJavlonbek',
+    filename: 'GitInfoLoader',
+}
+
+export default GitInfoLoader

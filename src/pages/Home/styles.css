@@ -1,0 +1,42 @@
+.home-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 15px 350px 20px;
+}
+
+.home-container h1 {
+    color: #000000;
+}
+
+.home-container p {
+    color: #7E7E7E;
+}
+
+.start-button {
+    background-color: #1890FF;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+@media(min-width:576px) {
+    .start-button {
+        font-size: 20px;
+    }
+}
+
+    @media (min-width: 992px) {
+  
+        .home-container {
+            padding-left: 40px;
+        }
+
+        .start-button {
+            font-size: 24px;
+        }
+        .home-container p {
+            font-size: 20px;
+        }
+  }
